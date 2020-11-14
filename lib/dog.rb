@@ -8,6 +8,9 @@ attr_accessor :name
 def initialize(name)
   @name = name
   self.save
+# Creating a save method on
+# initialization that shovels
+# into @@all array in its own method
 end
 
 def self.all
